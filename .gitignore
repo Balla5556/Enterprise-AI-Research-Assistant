@@ -36,3 +36,4 @@ htmlcov/
 # Local data artifacts
 data/*
 !data/.gitkeep
+.Rhistory
