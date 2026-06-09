@@ -133,6 +133,14 @@ streamlit run app/streamlit_app.py
 - Add document management workflows
 - Add deployment and monitoring support
 
+## Current Progress
+
+- PDF ingestion is implemented in the Streamlit app
+- Uploaded PDF files are saved temporarily for processing
+- Text is extracted with `pypdf` through `src/loaders/pdf_loader.py`
+- The app displays file name, page count, character count, and a text preview
+- Advanced RAG features such as chunking, embeddings, retrieval, FAISS workflows, and LLM generation are intentionally not implemented yet
+
 ## Current Status
 
 This repository is a clean starter scaffold. Advanced features are intentionally deferred so the project can grow in a structured, maintainable way.
