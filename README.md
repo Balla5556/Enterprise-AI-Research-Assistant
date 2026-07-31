@@ -1,6 +1,65 @@
 # Enterprise AI Research Assistant
 
-A professional starter repository for an enterprise-focused AI research assistant built with Python, Streamlit, LangChain, FAISS, sentence-transformers, and PDF ingestion utilities.
+> 🚧 **Status:** Active Development
+
+## Overview
+
+This project is an AI-powered Retrieval-Augmented Generation (RAG) system that enables users to query PDF documents using natural language. The goal is to build a scalable enterprise research assistant capable of retrieving relevant document context and generating grounded responses using Large Language Models.
+
+## Current Development Phase
+
+- ✅ Project architecture
+- ✅ Repository setup
+- 🚧 PDF ingestion
+- 🚧 Text chunking
+- 🚧 Embedding generation
+- 🚧 FAISS vector database integration
+- 🚧 Retrieval pipeline
+- 🚧 LLM response generation
+- 🚧 Streamlit interface
+
+## Architecture
+
+```
+User
+   │
+Upload PDF
+   │
+Document Parsing
+   │
+Text Chunking
+   │
+Embeddings
+   │
+FAISS Vector Store
+   │
+Semantic Retrieval
+   │
+Large Language Model
+   │
+Grounded Response with Citations
+```
+
+## Tech Stack
+
+- Python
+- LangChain
+- FAISS
+- Sentence Transformers
+- Streamlit
+- OpenAI-compatible LLMs
+- Git
+
+## Roadmap
+
+- [x] Architecture Design
+- [x] Repository Setup
+- [ ] Complete PDF Processing
+- [ ] Build Retrieval Pipeline
+- [ ] Add Evaluation Metrics
+- [ ] Dockerize Application
+- [ ] Deploy on AWS
+- [ ] CI/CD Pipeline
 
 ## Project Overview
 
